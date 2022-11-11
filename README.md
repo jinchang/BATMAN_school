@@ -1,6 +1,14 @@
-## CLEASE hands-on session
+# CLEASE hands-on session
 
-We will use Python and Jupyter notebook for this hands-on session. CLEASE is written in Python and C++. If you are using Windows, it is much preferred to use conda for package management and installation. So, if you don't have Python/conda in your computer, please go ahead and install miniconda from [this link](https://docs.conda.io/en/latest/miniconda.html).
+We will use Python and Jupyter notebook for this hands-on session. There are two ways in which you can run CLEASE, which is writeen in Python and C++:
+
+1. Run on your own computer using conda or pip package management system
+2. Run on gbar, where Python and Jupyter notebook are already set up for you. 
+
+
+## 1. Running CLEASE on your computer
+
+If you are using Windows, it is much preferred to use conda for package management and installation. So, if you don't have Python/conda in your computer, please go ahead and install miniconda from [this link](https://docs.conda.io/en/latest/miniconda.html).
 
 Now, open `Terminal` (Mac or Linux) or `Anaconda Prompt` (Windows) app and type the following lines.
 
@@ -16,3 +24,7 @@ The first line creates a virtual environment named `clease` using Python version
 ```console
 jupyter notebook
 ```
+
+## 2. Running CLEASE on gbar
+
+Please read the `connecting_to_gbar_2022.pdf` file for the instructions.
