@@ -1,1 +1,4 @@
 .DS_STORE
+*.json
+*.db
+.ipynb_checkpoints
